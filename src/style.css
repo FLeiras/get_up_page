@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'UbuntuLight';
+  src: url('../src/assets/fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'UbuntuMedium';
+  src: url('../src/assets/fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: url('../src/assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'UbuntuBold';
+  src: url('../src/assets/fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../src/assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'UbuntuLight', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'UbuntuMedium', sans-serif;
+  margin: 0 0 1rem 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  max-width: 170rem;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

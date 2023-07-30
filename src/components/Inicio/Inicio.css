@@ -1,0 +1,7 @@
+.container-inicio {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    max-width: 100vw;
+    height: 90vh;
+}
