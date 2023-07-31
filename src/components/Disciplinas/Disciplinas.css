@@ -7,6 +7,17 @@
     padding: 1.5rem;
 }
 
+.titulo {
+    text-align: start;
+    color: red;
+}
+
+.titulo-funcional h1{
+    color: red; 
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
 .img img{
     width: 25vw;
     height: 15vw;
@@ -25,6 +36,17 @@
     grid-row: -1;
     height: 7rem;
     background-color: #000;
+}
+
+.msj-disci {
+  width: 310%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.msj-disci img {
+    width: 15rem;
 }
 
 

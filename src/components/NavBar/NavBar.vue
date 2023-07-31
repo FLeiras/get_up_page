@@ -5,7 +5,6 @@ const router = useRouter();
 
 const goInicio = () => router.push('/');
 const goDesciplinas = () => router.push('/disci');
-const goContacto = () => router.push('/contacto');
 </script>
 
 <template>
@@ -18,7 +17,6 @@ const goContacto = () => router.push('/contacto');
         <ul>
             <li :class="{ active: $route.path === '/' }" @click="goInicio"><span>Inicio</span></li>
             <li :class="{ active: $route.path === '/disci' }" @click="goDesciplinas"><span>Disciplinas</span></li>
-            <li :class="{ active: $route.path === '/contacto' }" @click="goContacto"><span>Contactanos</span></li>
         </ul>
     </div>
 </template>
