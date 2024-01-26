@@ -60,3 +60,37 @@
   right: 0;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  #logo {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .container-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .container-inicio .intro {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 25rem;
+    width: 80rem;
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .container-inicio .intro {
+    height: 60rem;
+    width: 45rem;
+  }
+}
